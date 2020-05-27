@@ -4,19 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/yeezy_bg"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/projectName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Y Confirmed"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        style="@style/AppTheme.TextView.ProjectName"
+        android:layout_width="138dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="146sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginEnd="148sp"
+        android:text="@string/projectName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="432dp"
+        android:layout_height="294sp"
+        android:layout_marginTop="570sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
