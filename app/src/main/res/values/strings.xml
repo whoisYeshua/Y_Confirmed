@@ -3,4 +3,17 @@
     <string name="projectName">Y CONFIRMED</string>
     <string name="yeezy_boost_v2_350_yecheil_nrf">YEEZY BOOST V2 350 YECHEIL NRF</string>
     <string name="_20_2019">20 ДЕКАБРЯ, 2019</string>
+    <string name="Stats">Статистика</string>
+    <string name="Stats_text1">CАМАЯ УСПЕШНАЯ МОДЕЛЬ</string>
+    <string name="Stats_text2">CАМАЯ УСПЕШНАЯ КАПЧА</string>
+    <string name="Stats_text3">CАМАЯ ПРОБЛЕМНАЯ МОДЕЛЬ</string>
+    <string name="Stats_text4">CАМАЯ ПРОБЛЕМНАЯ КАПЧА</string>
+    <string name="Stats_text5">РЕШЕНО КАПЧ</string>
+    <string name="Stats_text6">СРЕДНЕЕ ВРЕМЯ РЕШЕНИЯ КАПЧ</string>
+    <string name="Stats_cont1">YEEZY BOOST 700 WAVERUNNER - 88 / 100</string>
+    <string name="Stats_cont2">ВНУТРЕННЯЯ ЧАСТЬ ПОМЕЩЕНИЯ - 88 / 100</string>
+    <string name="Stats_cont3">YEEZY BOOST 350 V2 YEEZREEL GLOW RF - 33 / 70</string>
+    <string name="Stats_cont4">ТЯЖЕЛАЯ АТЛЕТИКА - 63 / 100</string>
+    <string name="Stats_cont5">432</string>
+    <string name="Stats_cont6">1.5 сек</string>
 </resources>

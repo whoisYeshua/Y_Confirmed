@@ -25,5 +25,38 @@
         <item name="fontFamily">@font/adi_haus_din_medium</item>
     </style>
 
+    <style name="AppTheme.TextView.Stats_head">
+        <item name="android:textColor">@color/Main</item>
+        <item name="android:textSize">24dp</item>
+        <item name="fontFamily">@font/adi_haus_din_con_bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.Stats_texts">
+        <item name="android:textColor">@color/Main</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.Stats_content1">
+        <item name="android:textColor">@color/Success_s</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="AppTheme.TextView.Stats_content2">
+        <item name="android:textColor">@color/Failure_s</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="AppTheme.TextView.Stats_content3">
+        <item name="android:textColor">@color/Medium_s</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
 
 </resources>
