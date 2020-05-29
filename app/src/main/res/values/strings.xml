@@ -3,7 +3,7 @@
     <string name="projectName">Y CONFIRMED</string>
     <string name="yeezy_boost_v2_350_yecheil_nrf">YEEZY BOOST V2 350 YECHEIL NRF</string>
     <string name="_20_2019">20 ДЕКАБРЯ, 2019</string>
-    <string name="Stats">Статистика</string>
+    <string name="Stats">СТАТИСТИКА</string>
     <string name="Stats_text1">CАМАЯ УСПЕШНАЯ МОДЕЛЬ</string>
     <string name="Stats_text2">CАМАЯ УСПЕШНАЯ КАПЧА</string>
     <string name="Stats_text3">CАМАЯ ПРОБЛЕМНАЯ МОДЕЛЬ</string>
@@ -16,4 +16,11 @@
     <string name="Stats_cont4">ТЯЖЕЛАЯ АТЛЕТИКА - 63 / 100</string>
     <string name="Stats_cont5">432</string>
     <string name="Stats_cont6">1.5 сек</string>
+    <string name="a_about">О ПРИЛОЖЕНИИ</string>
+    <string name="about_1">ВЕРСИЯ ПРИЛОЖЕНИЯ</string>
+    <string name="about_2">ПОСЛЕДНЕЕ ОБНОВЛЕНИЕ</string>
+    <string name="about_3">СМЕНИТЬ МОДЕЛЬ НА ТЕМУ КАПЧИ</string>
+    <string name="about_c1">0.0.X</string>
+    <string name="about_c2">Пока еще ничего не добавили</string>
+    <string name="about_c3">Изменяет селектор выбора по модели на выбор по теме капчи, тем самым объединяя несколько моделей с одинаковой капчей.</string>
 </resources>
