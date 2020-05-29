@@ -16,4 +16,5 @@
     <string name="Stats_cont4">ТЯЖЕЛАЯ АТЛЕТИКА - 63 / 100</string>
     <string name="Stats_cont5">432</string>
     <string name="Stats_cont6">1.5 сек</string>
+    <string name="ic_settings_description">Settings</string>
 </resources>
