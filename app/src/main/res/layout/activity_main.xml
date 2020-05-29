@@ -27,7 +27,7 @@
                 android:backgroundTint="#EEEDE3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/settings_icon" />
+                app:srcCompat="@drawable/ic_settings_icon" />
 
             <TextView
                 android:id="@+id/projectName"
