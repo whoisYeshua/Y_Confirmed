@@ -28,6 +28,7 @@
     <style name="AppTheme.TextView.Stats_head">
         <item name="android:textColor">@color/Main</item>
         <item name="android:textSize">24dp</item>
+        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_bold</item>
     </style>
 
@@ -54,6 +55,21 @@
 
     <style name="AppTheme.TextView.Stats_content3">
         <item name="android:textColor">@color/Medium_s</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="AppTheme.TextView.About_text">
+        <item name="android:textColor">@color/Main</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="AppTheme.TextView.About_text1">
+        <item name="android:textColor">@color/Main</item>
+        <item name="android:textAlignment">textStart</item>
         <item name="android:textSize">16dp</item>
         <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_regular</item>
