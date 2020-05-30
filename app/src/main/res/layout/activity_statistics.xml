@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Statistics">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="731dp"
+        android:layout_marginStart="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -18,7 +19,6 @@
             android:id="@+id/view4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:background="#E0E0E0"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,6 @@
             android:id="@+id/view5"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:background="#E0E0E0"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +37,6 @@
             android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:background="#E0E0E0"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +46,6 @@
             android:id="@+id/view3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:background="#E0E0E0"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,50 +56,32 @@
             style="@style/AppTheme.TextView.Stats_head"
             android:layout_width="wrap_content"
             android:layout_height="28dp"
-            android:layout_marginStart="125dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="125dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="145dp"
             android:text="@string/Stats"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="60dp"
-            android:backgroundTint="#00000000"
-            android:visibility="visible"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_chevron_left" />
-
         <TextView
             android:id="@+id/stats_text1"
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="42dp"
-            android:layout_marginEnd="165dp"
+            android:layout_marginTop="60dp"
             android:text="@string/Stats_text1"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+            app:layout_constraintTop_toBottomOf="@+id/head_stats" />
 
         <TextView
             android:id="@+id/stats_content1"
             style="@style/AppTheme.TextView.Stats_content1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="70dp"
             android:text="@string/Stats_cont1"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/stats_text1" />
 
@@ -110,7 +89,6 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:background="#E0E0E0"
             app:layout_constraintStart_toStartOf="parent"
@@ -121,11 +99,8 @@
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginEnd="175dp"
+            android:layout_marginTop="17dp"
             android:text="@string/Stats_text2"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -134,11 +109,8 @@
             style="@style/AppTheme.TextView.Stats_content1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="52dp"
             android:text="@string/Stats_cont2"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/stats_text2" />
 
@@ -147,11 +119,8 @@
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="148dp"
             android:text="@string/Stats_text3"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view2" />
 
@@ -160,12 +129,8 @@
             style="@style/AppTheme.TextView.Stats_content2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="14dp"
             android:text="@string/Stats_cont3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.21"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/stats_text3" />
 
@@ -174,11 +139,8 @@
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="158dp"
             android:text="@string/Stats_text4"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view3" />
 
@@ -187,11 +149,8 @@
             style="@style/AppTheme.TextView.Stats_content3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="160dp"
             android:text="@string/Stats_cont4"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Stats_text4" />
 
@@ -200,7 +159,6 @@
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
             android:layout_marginEnd="274dp"
             android:text="@string/Stats_text5"
@@ -213,11 +171,8 @@
             android:id="@+id/stats_content5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="366dp"
             android:text="@string/Stats_cont5"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/stats_text5" />
 
@@ -226,12 +181,8 @@
             style="@style/AppTheme.TextView.Stats_texts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="17dp"
-            android:layout_marginEnd="129dp"
             android:text="@string/Stats_text6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view5" />
 
@@ -239,14 +190,23 @@
             android:id="@+id/stats_content6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="329dp"
+            android:layout_marginTop="17dp"
             android:text="@string/Stats_cont6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/stats_text6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00000000"
+        android:visibility="visible"
+        android:onClick="toSettings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chevron_left" />
 </androidx.constraintlayout.widget.ConstraintLayout>
