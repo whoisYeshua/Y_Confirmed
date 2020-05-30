@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#111111</color>
-    <color name="colorAccent">#111111</color>
-    <color name="Main">#111111</color>
+    <color name="mainWhite">#ffffff</color>
+    <color name="mainBlack">#111111</color>
     <color name="Success_s">#009933</color>
     <color name="Failure_s">#FF0000</color>
     <color name="Medium_s">#FF9900</color>

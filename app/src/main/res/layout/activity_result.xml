@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_linear"
+    tools:context=".Result">
+
+    <Button
+        android:id="@+id/buttonFurther"
+        style="@style/Widget.AppCompat.Button.WhiteBorder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/finish"
+        android:onClick="toMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/res"
+        style="@style/AppTheme.TextView.AdiBoldRes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/res"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/attempt"
+        style="@style/AppTheme.TextView.MediumRes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="185dp"
+        android:text="1 / 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res" />
+
+    <TextView
+        android:id="@+id/avg"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="69dp"
+        android:text="@string/avg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slow_time" />
+
+    <TextView
+        android:id="@+id/slow_time"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="170dp"
+        android:text="@string/_1_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slow" />
+
+    <TextView
+        android:id="@+id/avg_time"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="170dp"
+        android:text="@string/_1_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avg" />
+
+    <TextView
+        android:id="@+id/quick_time"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="170dp"
+        android:text="@string/_1_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick" />
+
+    <TextView
+        android:id="@+id/slow"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="42dp"
+        android:text="@string/slow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick_time" />
+
+    <TextView
+        android:id="@+id/quick"
+        style="@style/AppTheme.TextView.MediumResSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="66dp"
+        android:text="@string/quick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attempt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,4 +24,14 @@
     <string name="about_c1">0.0.X</string>
     <string name="about_c2">Пока еще ничего не добавили</string>
     <string name="about_c3">Изменяет селектор выбора по модели на выбор по теме капчи, тем самым объединяя несколько моделей с одинаковой капчей.</string>
+    <string name="further">ДАЛЕЕ</string>
+    <string name="finish">ЗАКОНЧИТЬ</string>
+    <string name="correct">ПРАВИЛЬНО</string>
+    <string name="_1_2">1.2 СЕК</string>
+    <string name="incorrect">НЕ ПРАВИЛЬНО</string>
+    <string name="res">РЕЗУЛЬТАТЫ</string>
+    <string name="quick">САМОЕ БЫСТРОЕ РЕШЕНИЕ</string>
+    <string name="slow">САМОЕ МЕДЛЕННОЕ РЕШЕНИЕ</string>
+    <string name="avg">СРЕДНЕЕ ВРЕМЯ РЕШЕНИЯ</string>
+
 </resources>
