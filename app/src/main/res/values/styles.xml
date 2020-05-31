@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/mainWhite</item>
+        <item name="colorPrimaryDark">@color/mainBlack</item>
+        <item name="colorAccent">@color/mainBlack</item>
     </style>
 
     <style name="AppTheme.TextView">
@@ -13,66 +13,115 @@
         <item name="android:inputType"> textNoSuggestions</item>
     </style>
 
-    <style name="AppTheme.TextView.YeezyMain">
-        <item name="android:textColor">@color/Main</item>
-        <item name="android:textSize">24sp</item>
+    <style name="AppTheme.TextView.YeezyHead">
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">24dp</item>
         <item name="fontFamily">@font/yeezy_tstar_bold</item>
     </style>
 
-    <style name="AppTheme.TextView.YeezyDate">
-        <item name="android:textColor">@color/Main</item>
-        <item name="android:textSize">16sp</item>
-        <item name="fontFamily">@font/adi_haus_din_medium</item>
-    </style>
-
-    <style name="AppTheme.TextView.Stats_head">
-        <item name="android:textColor">@color/Main</item>
+    <style name="AppTheme.TextView.AdiBoldHead">
+        <item name="android:textColor">@color/mainBlack</item>
         <item name="android:textSize">24dp</item>
-        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_bold</item>
     </style>
 
-    <style name="AppTheme.TextView.Stats_texts">
-        <item name="android:textColor">@color/Main</item>
+    <style name="AppTheme.TextView.MediumText">
+        <item name="android:textColor">@color/mainBlack</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
+        <item name="fontFamily">@font/adi_haus_din_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.RegularText">
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="AppTheme.TextView.AdiBoldRes">
+        <item name="android:textColor">@color/mainWhite</item>
+        <item name="android:textSize">28dp</item>
+        <item name="fontFamily">@font/adi_haus_din_bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.MediumRes">
+        <item name="android:textColor">@color/mainWhite</item>
+        <item name="android:textSize">24dp</item>
+        <item name="fontFamily">@font/adi_haus_din_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.MediumResSmall">
+        <item name="android:textColor">@color/mainWhite</item>
+        <item name="android:textSize">20dp</item>
         <item name="fontFamily">@font/adi_haus_din_medium</item>
     </style>
 
     <style name="AppTheme.TextView.Stats_content1">
         <item name="android:textColor">@color/Success_s</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_regular</item>
     </style>
 
     <style name="AppTheme.TextView.Stats_content2">
         <item name="android:textColor">@color/Failure_s</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_regular</item>
     </style>
 
     <style name="AppTheme.TextView.Stats_content3">
         <item name="android:textColor">@color/Medium_s</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_regular</item>
     </style>
 
-    <style name="AppTheme.TextView.About_text">
-        <item name="android:textColor">@color/Main</item>
-        <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
-        <item name="fontFamily">@font/adi_haus_din_regular</item>
-    </style>
-
-    <style name="AppTheme.TextView.About_text1">
-        <item name="android:textColor">@color/Main</item>
+    <style name="AppTheme.TextView.MultilineText">
+        <item name="android:textColor">@color/mainBlack</item>
         <item name="android:textAlignment">textStart</item>
+        <item name="android:inputType">textMultiLine</item>
         <item name="android:textSize">16dp</item>
-        <item name="android:spacing">1.2dp</item>
         <item name="fontFamily">@font/adi_haus_din_regular</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.BlackBorder">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/ic_button_transparent</item>
+        <item name="android:backgroundTint">@color/mainBlack</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/adi_haus_din_medium</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.WhiteBorder">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/ic_button_transparent</item>
+        <item name="android:backgroundTint">@color/mainWhite</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/mainWhite</item>
+        <item name="android:fontFamily">@font/adi_haus_din_medium</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.BlackFull">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/ic_button_black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/mainWhite</item>
+        <item name="android:fontFamily">@font/adi_haus_din_medium</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
     </style>
 
 </resources>

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void toSettings(View view) {
         Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
+        Animatoo.animateFade(this);
     }
 }

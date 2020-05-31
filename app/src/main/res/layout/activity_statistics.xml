@@ -53,9 +53,9 @@
 
         <TextView
             android:id="@+id/head_stats"
-            style="@style/AppTheme.TextView.Stats_head"
+            style="@style/AppTheme.TextView.AdiBoldHead"
             android:layout_width="wrap_content"
-            android:layout_height="28dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="105dp"
             android:layout_marginTop="45dp"
             android:layout_marginEnd="145dp"
@@ -67,7 +67,7 @@
 
         <TextView
             android:id="@+id/stats_text1"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -96,7 +96,7 @@
 
         <TextView
             android:id="@+id/stats_text2"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -116,7 +116,7 @@
 
         <TextView
             android:id="@+id/stats_text3"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -136,7 +136,7 @@
 
         <TextView
             android:id="@+id/Stats_text4"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -156,7 +156,7 @@
 
         <TextView
             android:id="@+id/stats_text5"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -169,6 +169,7 @@
 
         <TextView
             android:id="@+id/stats_content5"
+            style="@style/AppTheme.TextView.RegularText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -178,7 +179,7 @@
 
         <TextView
             android:id="@+id/stats_text6"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -188,6 +189,7 @@
 
         <TextView
             android:id="@+id/stats_content6"
+            style="@style/AppTheme.TextView.RegularText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"

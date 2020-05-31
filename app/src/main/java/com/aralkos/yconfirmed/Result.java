@@ -8,18 +8,17 @@ import android.view.View;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
-public class Statistics extends AppCompatActivity {
+public class Result extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_statistics);
+        setContentView(R.layout.activity_result);
     }
 
-    public void toSettings(View view) {
-        Intent intent = new Intent(this, Settings.class);
+    public void toMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        Animatoo.animateSlideRight(this);
+        Animatoo.animateSlideLeft(this);
     }
-
 }

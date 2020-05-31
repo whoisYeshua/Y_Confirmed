@@ -26,7 +26,7 @@
 
         <TextView
             android:id="@+id/h_about"
-            style="@style/AppTheme.TextView.Stats_head"
+            style="@style/AppTheme.TextView.AdiBoldHead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="45dp"
@@ -48,7 +48,7 @@
 
         <TextView
             android:id="@+id/about_1"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -58,7 +58,7 @@
 
         <TextView
             android:id="@+id/about_c1"
-            style="@style/AppTheme.TextView.About_text"
+            style="@style/AppTheme.TextView.RegularText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -86,7 +86,7 @@
 
         <TextView
             android:id="@+id/about_2"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -96,7 +96,7 @@
 
         <TextView
             android:id="@+id/about_c2"
-            style="@style/AppTheme.TextView.About_text"
+            style="@style/AppTheme.TextView.RegularText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -106,7 +106,7 @@
 
         <TextView
             android:id="@+id/about_3"
-            style="@style/AppTheme.TextView.Stats_texts"
+            style="@style/AppTheme.TextView.MediumText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
@@ -116,12 +116,12 @@
 
         <TextView
             android:id="@+id/about_c3"
-            style="@style/AppTheme.TextView.About_text1"
+            style="@style/AppTheme.TextView.MultilineText"
             android:layout_width="255dp"
             android:layout_height="72dp"
             android:layout_marginTop="17dp"
             android:layout_marginEnd="138dp"
-            android:inputType="textMultiLine"
+
             android:text="@string/about_c3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -144,15 +144,10 @@
 
     <Button
         android:id="@+id/stats_button"
-        android:layout_width="0dp"
-        android:layout_height="57dp"
+        style="@style/Widget.AppCompat.Button.BlackBorder"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/ic_button_transparent"
-        android:backgroundTint="#000000"
-        android:gravity="left|center_vertical"
-        android:paddingLeft="10dp"
         android:onClick="toStatistics"
         android:text="@string/Stats"
         app:layout_constraintEnd_toEndOf="parent"
