@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+
 public class Result extends AppCompatActivity {
 
     @Override
@@ -17,5 +19,6 @@ public class Result extends AppCompatActivity {
     public void toMain(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        Animatoo.animateSlideLeft(this);
     }
 }
