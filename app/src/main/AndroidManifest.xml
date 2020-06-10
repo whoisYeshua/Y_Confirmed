@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Result"></activity>
+        <activity android:name=".captcha2"></activity>
+        <activity android:name=".captcha" />
+        <activity android:name=".Result" />
         <activity android:name=".Lose" />
         <activity android:name=".Win" />
         <activity android:name=".Statistics" />

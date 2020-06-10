@@ -49,10 +49,28 @@
         <item name="fontFamily">@font/adi_haus_din_medium</item>
     </style>
 
-    <style name="AppTheme.TextView.MediumResSmall">
+    <style name="AppTheme.TextView.MediumResSmallWhite">
         <item name="android:textColor">@color/mainWhite</item>
         <item name="android:textSize">20dp</item>
         <item name="fontFamily">@font/adi_haus_din_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.MediumResSmallBlack">
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">20dp</item>
+        <item name="fontFamily">@font/adi_haus_din_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.CaptchaLarge">
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">19dp</item>
+        <item name="fontFamily">@font/adi_haus_din_bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.CaptchaSmall">
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">16dp</item>
+        <item name="fontFamily">@font/adi_haus_din_bold</item>
     </style>
 
     <style name="AppTheme.TextView.Stats_content1">

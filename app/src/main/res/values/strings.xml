@@ -2,6 +2,7 @@
     <string name="app_name">Y CONFIRMED</string>
     <string name="projectName">Y CONFIRMED</string>
     <string name="yeezy_boost_v2_350_yecheil_nrf">YEEZY BOOST V2 350 YECHEIL NRF</string>
+    <string name="yeezy_boost_v2_350_yecheil_nrf_question">НАЖМИ НА ИЗОБРАЖЕНИЕ С МЯЧОМ В СЕТКЕ</string>
     <string name="_20_2019">20 ДЕКАБРЯ, 2019</string>
     <string name="Stats">СТАТИСТИКА</string>
     <string name="Stats_text1">CАМАЯ УСПЕШНАЯ МОДЕЛЬ</string>
@@ -33,5 +34,8 @@
     <string name="quick">САМОЕ БЫСТРОЕ РЕШЕНИЕ</string>
     <string name="slow">САМОЕ МЕДЛЕННОЕ РЕШЕНИЕ</string>
     <string name="avg">СРЕДНЕЕ ВРЕМЯ РЕШЕНИЯ</string>
+    <string name="captchaSubTitleL">ПОБЕЖДАЮТ САМЫЕ БЫСТРЫЕ</string>
+    <string name="captchaSubTitleS">ТОРОПИСЬ!</string>
+    <string name="captchaTitle">ВЫБЕРИ ВЕРНОЕ ИЗОБРАЖЕНИЕ</string>
 
 </resources>

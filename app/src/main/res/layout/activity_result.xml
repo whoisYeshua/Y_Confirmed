@@ -49,7 +49,7 @@
 
     <TextView
         android:id="@+id/avg"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="69dp"
@@ -62,7 +62,7 @@
 
     <TextView
         android:id="@+id/slow_time"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -75,7 +75,7 @@
 
     <TextView
         android:id="@+id/avg_time"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -88,7 +88,7 @@
 
     <TextView
         android:id="@+id/quick_time"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="170dp"
@@ -101,7 +101,7 @@
 
     <TextView
         android:id="@+id/slow"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="42dp"
@@ -114,7 +114,7 @@
 
     <TextView
         android:id="@+id/quick"
-        style="@style/AppTheme.TextView.MediumResSmall"
+        style="@style/AppTheme.TextView.MediumResSmallWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="66dp"
